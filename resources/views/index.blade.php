@@ -1,29 +1,29 @@
 <?php $thisPage="Home"?>
-
+@extends('layouts.master')
 @section('title', 'Home')
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
+  <!--<head>
+     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Company-HTML Bootstrap theme</title>
+    <title>Company-HTML Bootstrap theme</title> -->
 
     <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="css/bootstrap.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.css">
 	<link href="css/prettyPhoto.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" />	
+	<link href="css/style.css" rel="stylesheet" />	 -->
     <!-- =======================================================
         Theme Name: Company
         Theme URL: https://bootstrapmade.com/company-free-html-bootstrap-template/
         Author: BootstrapMade
         Author URL: https://bootstrapmade.com
     ======================================================= -->
-  </head>
+  <!-- </head> -->
   <body>
-	<header>		
+	<!-- <header>		
 		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 			<div class="navigation">
 				<div class="container">					
@@ -56,7 +56,7 @@
 				</div>
 			</div>	
 		</nav>		
-	</header>
+	</header> -->
 	<section id="main-slider" class="no-margin">
         <div class="carousel slide">      
             <div class="carousel-inner">
@@ -65,16 +65,16 @@
                         <div class="row slide-margin">
                             <div class="col-sm-6">
                                 <div class="carousel-content">
-                                    <h2 class="animation animated-item-1">Welcome <span>Company</span></h2>
-                                    <p class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</p>
-                                    <a class="btn-slide animation animated-item-3" href="#">Read More</a>
+                                    <h2 class="animation animated-item-1">Gurudev <span>Traders</span></h2>
+                                    <p class="animation animated-item-2">A remarkable place holder in the field of manufacturing and supplying textile packaging materials across the cities...</p>
+                                    <!-- <a class="btn-slide animation animated-item-3" href="#">Read More</a> -->
                                 </div>
                             </div>
 
                             <div class="col-sm-6 hidden-xs animation animated-item-4">
-                                <div class="slider-img">
+                                <!-- <div class="slider-img">
                                     <img src="images/slider/img3.png" class="img-responsive">
-                                </div>
+                                </div> -->
                             </div>
 
                         </div>
@@ -222,7 +222,7 @@
             </div>
         </div><!--/.container-->    
     </section><!--/#conatcat-info-->
-	<footer>
+	<!-- <footer>
 		<div class="footer">
 			<div class="container">
 				<div class="social-icon">
@@ -241,12 +241,6 @@
 					<div class="copyright">
 						&copy; Company Theme. All Rights Reserved.
                         <div class="credits">
-                            <!-- 
-                                All the links in the footer should remain intact. 
-                                You can delete the links only if you purchased the pro version.
-                                Licensing information: https://bootstrapmade.com/license/
-                                Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Company
-                            -->
                             <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                         </div>
 					</div>
@@ -257,7 +251,7 @@
 				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
 			</div>		
 		</div>
-	</footer>
+	</footer> -->
 
 	
 	
