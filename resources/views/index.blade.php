@@ -90,28 +90,28 @@
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
 						<i class="fa fa-book"></i>	
-						<h2>Full Responsive</h2>
+						<h2>Highly Durable</h2>
 						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
 						<i class="fa fa-laptop"></i>	
-						<h2>Retina Ready</h2>
+						<h2>Excellent Quality</h2>
 						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" >
 						<i class="fa fa-heart-o"></i>	
-						<h2>Full Responsive</h2>
+						<h2>Strong and Sturdy</h2>
 						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" >
 						<i class="fa fa-cloud"></i>	
-						<h2>Friendly Code</h2>
+						<h2>High Resistance</h2>
 						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
 					</div>
 				</div>
@@ -122,29 +122,21 @@
 	<div class="about">
 		<div class="container">
 			<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
-				<h2>about us</h2>
+				<h2>About us</h2>
 				<img src="images/6.jpg" class="img-responsive"/>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				<p>
+				Gurudev Traders is a premier supplier to the diverse textile market place. Through our commitment to unmatched service and integrity, we become indispensable to our partners. 
 				</p>
 			</div>
 			
 			<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
-				<h2>Template built with Twitter Bootstrap</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
+				<!-- <h2>Delivering Commited Results</h2> -->
+				<br><br><br><br>
+				<p>We offer a wide range of high quality packing materials whether you call for light weight or heavy weight, we supply the material you need at the best possible price.
+				Long standing customer relationships spanning over decades because we ensure to deliver what we commit, which might mean working odd hours.
+				Efficient mapping of needs of the customers in terms of perceived product deliverables. Consistant product pallet offering to satisfy the customer successfully.
+				We ensure delivering committed results by making sure we work to deliver the optimum business performance to create greater business valuation.
 				</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat libero, pulvinar tincidunt leo consectetur eget. 
-				Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget. 
-				Curabitur lacinia pellentesque libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque </p>
 			</div>
 		</div>
 	</div>
@@ -186,7 +178,7 @@
 		</div>
 	</div>
 	
-	<section id="partner">
+	<!-- <section id="partner">
         <div class="container">
             <div class="center wow fadeInDown">
                 <h2>Our Partners</h2>
@@ -202,8 +194,8 @@
                     <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
                 </ul>
             </div>        
-        </div><!--/.container-->
-    </section><!--/#partner-->
+        </div>
+    </section> -->
 	
 	<section id="conatcat-info">
         <div class="container">
@@ -215,7 +207,10 @@
                         </div>
                         <div class="media-body">
                             <h2>Have a question or need a custom quote?</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation +0123 456 70 80</p>
+					            <ul class="portfolio-filter text-center">
+					                <a class="btn btn-default active" href='AddQuotation'>Ask Quotation</a>
+					            </ul>
+                            <p>Please feel free to send an enquiry or ask for quotation for the product.<br/> Email us at <u>support@gurudevtraders.in</u> or call us at 9987456321.</p>
                         </div>
                     </div>
                 </div>
