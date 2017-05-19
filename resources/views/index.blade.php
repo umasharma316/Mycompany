@@ -87,34 +87,34 @@
 	<div class="feature">
 		<div class="container">
 			<div class="text-center">
+			<div class="col-md-3">
+					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" >
+						<i class="fa fa-cloud"></i>	
+						<h2>Mission Statement</h2>
+						<p>Quality is what we Believe, Service is what we Give, Opportunity is what you Give, Satisfaction is what you Get.</p>
+					</div>
+				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
 						<i class="fa fa-book"></i>	
-						<h2>Highly Durable</h2>
-						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+						<h2>Our Commitment </h2>
+						<p>We are committed to producing Top Quality, Unique Packaging and Promotional materials. We recognize the importance of all our clients and have put structures in place to ensure everyone.</p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" >
 						<i class="fa fa-laptop"></i>	
-						<h2>Excellent Quality</h2>
-						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+						<h2>Our Capabilities </h2>
+						<p>We have our hands on in supplying and manufacturing various grades of textile packaging materials.</p>
 					</div>
 				</div>
 				<div class="col-md-3">
 					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" >
 						<i class="fa fa-heart-o"></i>	
-						<h2>Strong and Sturdy</h2>
-						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
+						<h2>Quality Assurance </h2>
+						<p>Our products are comprised of strong and sturdy characteristics required for packing the textile products.</p>
 					</div>
-				</div>
-				<div class="col-md-3">
-					<div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" >
-						<i class="fa fa-cloud"></i>	
-						<h2>High Resistance</h2>
-						<p>Quisque eu ante at tortor imperdiet gravida nec sed turpis phasellus.</p>
-					</div>
-				</div>
+				</div>				
 			</div>
 		</div>
 	</div>
@@ -122,7 +122,7 @@
 	<div class="about">
 		<div class="container">
 			<div class="col-md-6 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" >
-				<h2>About us</h2>
+				<h2>What We Offer</h2>
 				<img src="images/6.jpg" class="img-responsive"/>
 				<p>
 				Gurudev Traders is a premier supplier to the diverse textile market place. Through our commitment to unmatched service and integrity, we become indispensable to our partners. 
@@ -135,13 +135,15 @@
 				<p>We offer a wide range of high quality packing materials whether you call for light weight or heavy weight, we supply the material you need at the best possible price.
 				Long standing customer relationships spanning over decades because we ensure to deliver what we commit, which might mean working odd hours.
 				Efficient mapping of needs of the customers in terms of perceived product deliverables. Consistant product pallet offering to satisfy the customer successfully.
-				We ensure delivering committed results by making sure we work to deliver the optimum business performance to create greater business valuation.
+				We ensure delivering committed results by making sure we work to deliver the optimum business performance to create greater business valuation.We reach out to our customers directly which ensures that our customers get what they want and there are no traders or middlemen in between.  We believe in building mutually beneficial relationship with our clients.  Right through the Designing, Manufacturing process of the Products to the Warehousing and Distribution we work in tandem with our customers. 
+				</br>
+				We are environmentally responsible and our Products are recycleable.
 				</p>
 			</div>
 		</div>
 	</div>
 	
-	<div class="lates">
+	<!-- <div class="lates">
 		<div class="container">
 			<div class="text-center">
 				<h2>Lates News</h2>
@@ -176,7 +178,7 @@
 				</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	
 	<!-- <section id="partner">
         <div class="container">
