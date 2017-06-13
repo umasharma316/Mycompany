@@ -42,9 +42,10 @@
 								<li role="presentation"><a href="Home" class="active">Home</a></li>
 								<li role="presentation"><a href="about">About Us</a></li>
 								<li role="presentation"><a href="services">Services</a></li>								
-								<li role="presentation"><a href="portfolio">Portfolio</a></li>
+								<li role="presentation"><a href="portfolio">Products</a></li>
 								<li role="presentation"><a href="blog">Blog</a></li>
 								<li role="presentation"><a href="contact">Contact</a></li>
+								<!-- <li role="presentation"><a href="addorder">Details</a></li> -->
 								<!-- <li data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="about us"><a href="#about">About Us</a> -->
             </li>					
 							</ul>

@@ -14,6 +14,9 @@
 // Route::get('/', function () {
 //     return view('welcome');
 // });
+Route::get('Home', function () {
+    return view('index');
+});
 Route::get('/', function () {
     return view('index');
 });
@@ -31,4 +34,20 @@ Route::get('contact', function () {
 });
 Route::get('services', function () {
     return view('services');
+});
+
+Route::match(array('GET', 'POST'), '/addorder', array(
+			'as'	=>	'addorder',
+			'uses'	=>	'HomeController@GetItemDetails'
+));
+//Route::post('form', array('as' => 'form', 'uses'=>'HomeController@GetItemDetails'));
+Route::get('insert','HomeController@insertform');
+Route::post('create','HomeController@insert');
+
+//**********Add Quotation**************//
+Route::get('insertquot','HomeController@insertQuotform');
+Route::post('createquot','HomeController@Quotinsert');
+
+Route::get('AddQuotation', function () {
+    return view('AddQuotation');
 });
