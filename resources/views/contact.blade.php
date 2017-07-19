@@ -22,16 +22,22 @@
         <div class="container">
             <div class="center">        
                 <h2>Drop Your Message</h2>
-                <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p></p>
             </div> 
             <div class="row contact-wrap"> 
-                <div class="status alert alert-success" style="display: none"></div>
+            @if(session()->has('message'))    
+                <div class="status alert alert-success">
+                {{ session()->get('message') }}
+                <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->                    
+                </div>
+            @endif    
                 <div class="col-md-6 col-md-offset-3">
-                    <div id="sendmessage">Your message has been sent. Thank you!</div>
+                    
                     <div id="errormessage"></div>
-                    <form action="" method="post" role="form" class="contactForm">
+                    <form action="savemessage" method="post" role="form" class="contactForm">
+                    <input type = "hidden" name = "_token" value = "<?php echo csrf_token(); ?>">
                             <div class="form-group">
-                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:3" data-msg="Please enter at least 3 chars" />
                                     <div class="validation"></div>
                             </div>
                             <div class="form-group">
@@ -46,7 +52,7 @@
                                     <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                                     <div class="validation"></div>
                             </div>
-                        <div class="text-center"><button type="submit" name="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button></div>
+                        <div class="text-center"><button type="submit" name="submit" value="submit" class="btn btn-primary btn-lg" required="required">Submit Message</button></div>
                     </form>                       
                 </div>
             </div><!--/.row-->

@@ -2,11 +2,11 @@
 use Illuminate\Http\Request;
 use DB;
 use App\Http\Requests;
+use App\Http\Controllers\Controller;
 use App\Model\ItemMaster;
 use App\Model\AskQuotation;
-
-use App\Http\Controllers\Controller;
-
+use App\Model\DropYourMessage;
+use redirect;
 use Input;
 use Log;
 
@@ -81,6 +81,37 @@ class HomeController extends Controller {
       echo '<a href = "/insertquot">Click Here</a> to go back.';
       
    }
+
+      public function SaveMessage()
+      {
+      $msg=new DropYourMessage();
+     $msg->Name= Input::get('name');
+     $msg->EmailId= Input::get('email');
+     $msg->Subject= Input::get('subject');
+     $msg->Message= Input::get('message');
+      Log::info($msg->Name);
+      Log::info($msg->EmailId);
+      Log::info($msg->Subject);
+      Log::info($msg->Message);
+      
+      //echo "Your message added successfully.<br/>";   
+
+      if(Input::get('name')=='' && Input::get('email')==''&& Input::get('message')=='')
+      {           
+        return redirect()->route('contact')->with('message', 'Nothing to submit, Please enter the details!!!');  
+      }
+      else if(Input::get('message')!='' && Input::get('name')=='' && Input::get('email')=='')
+      {
+        return redirect()->route('contact')->with('message', 'Please provide either name or email id!!!');  
+      }
+      else
+      {
+        $msg->save();
+        return view('contact')->with('message', 'Your message has been sent. Thank you!');
+        //return redirect()->route('contact')->with('message', 'Your message has been sent. Thank you!');   
+      }          
+   }
+   
 }
 
 
