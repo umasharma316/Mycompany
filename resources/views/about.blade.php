@@ -4,53 +4,7 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <!-- <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Company-HTML Bootstrap theme</title>
-
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link rel="stylesheet" href="css/font-awesome.min.css">
-	<link rel="stylesheet" href="css/animate.css">
-	<link href="css/prettyPhoto.css" rel="stylesheet">
-	<link href="css/style.css" rel="stylesheet" />		
-  </head> -->
   <body>
-	<!-- <header>		
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="navigation">
-				<div class="container">					
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<div class="navbar-brand">
-							<a href="index.html"><h1><span>Com</span>pany</h1></a>
-						</div>
-					</div>
-					
-					<div class="navbar-collapse collapse">							
-						<div class="menu">
-							<ul class="nav nav-tabs" role="tablist">
-								<li role="presentation"><a href="index.html">Home</a></li>
-								<li role="presentation"><a href="about.html" class="active">About Us</a></li>
-								<li role="presentation"><a href="services.html">Services</a></li>								
-								<li role="presentation"><a href="portfolio.html">Portfolio</a></li>
-								<li role="presentation"><a href="blog.html">Blog</a></li>
-								<li role="presentation"><a href="contact.html">Contact</a></li>						
-							</ul>
-						</div>
-					</div>						
-				</div>
-			</div>	
-		</nav>		
-	</header> -->
-	
 	<div id="breadcrumb">
 		<div class="container">	
 			<div class="breadcrumb">							
@@ -105,7 +59,7 @@
 					</div>
 
 					<div class="progress-wrap">
-						<h4>Gold Paste</h4>
+						<h4>Printed and Plain Poly Bags</h4>
 						<div class="progress">
 						  <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
 							<span class="bar-width">5%</span>
@@ -123,7 +77,7 @@
 			<div class="text-center">
 			<div class="row">
 				<div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-					<img src="images/services/1.jpg" alt="">
+					<img src="images/services/5.jpg" alt="">
 					<h4>Suresh Sharma</h4>
 					<p><b>Mobile:</b>1234567890 </br><b>Email:</b> suresh@gurudevtraders.com</p>
 				</div>
@@ -133,7 +87,7 @@
 					<p><b>Mobile:</b>1234567890 </br><b>Email:</b> vijay@gurudevtraders.com</p>
 				</div>
 				<div class="col-sm-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-					<img src="images/services/3.jpg" alt="">
+					<img src="images/services/1.jpg" alt="">
 					<h4>Sumit Sharma</h4>
 					<p><b>Mobile:</b>1234567890 </br><b>Email:</b> sumit@gurudevtraders.com</p>
 				</div>
@@ -147,36 +101,6 @@
 		</div>
 	</div>
 	
-	<!-- <footer>
-		<div class="footer">
-			<div class="container">
-				<div class="social-icon">
-					<div class="col-md-4">
-						<ul class="social-network">
-							<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
-						</ul>	
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-md-offset-4">
-					<div class="copyright">
-						&copy; Company Theme. All Rights Reserved.
-                        <div class="credits">
-                            <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                        </div>
-					</div>
-				</div>						
-			</div>
-			<div class="pull-right">
-				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
-			</div>
-		</div>
-	</footer> -->
-	
    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-2.1.1.min.js"></script>	
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -185,6 +109,5 @@
     <script src="js/jquery.isotope.min.js"></script>  
 	<script src="js/wow.min.js"></script>
 	<script src="js/functions.js"></script>
-	
 </body>
 </html>

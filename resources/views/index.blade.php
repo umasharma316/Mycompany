@@ -23,40 +23,6 @@
     ======================================================= -->
   <!-- </head> -->
   <body>
-	<!-- <header>		
-		<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-			<div class="navigation">
-				<div class="container">					
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<div class="navbar-brand">
-							<a href="index.blade.php"><h1><span>Com</span>pany</h1></a>
-						</div>
-					</div>
-					
-					<div class="navbar-collapse collapse">							
-						<div class="menu">
-							<ul class="nav nav-tabs" role="tablist">
-								<li role="presentation"><a href="index.blade.php" class="active">Home</a></li>
-								<li role="presentation"><a href="about.blade.php">About Us</a></li>
-								<li role="presentation"><a href="services.blade.php">Services</a></li>								
-								<li role="presentation"><a href="portfolio.blade.php">Portfolio</a></li>
-								<li role="presentation"><a href="blog.blade.php">Blog</a></li>
-								<li role="presentation"><a href="contact.blade.php">Contact</a></li>
-								<li data-toggle="tooltip" data-trigger="hover" data-placement="bottom" title="about us"><a href="#about">About Us</a>
-            </li>					
-							</ul>
-						</div>
-					</div>						
-				</div>
-			</div>	
-		</nav>		
-	</header> -->
 	<section id="main-slider" class="no-margin">
         <div class="carousel slide">      
             <div class="carousel-inner">
@@ -125,7 +91,7 @@
 				<h2>What We Offer</h2>
 				<img src="images/6.jpg" class="img-responsive"/>
 				<p>
-				Gurudev Traders is a premier supplier to the diverse textile market place. Through our commitment to unmatched service and integrity, we become indispensable to our partners. 
+				The Manufacturer and Supplier of A To Z Textile Packaging Materials to the diverse textile market place. Through our commitment to unmatched service and integrity, we become indispensable to our partners. 
 				</p>
 			</div>
 			
@@ -142,63 +108,6 @@
 			</div>
 		</div>
 	</div>
-	
-	<!-- <div class="lates">
-		<div class="container">
-			<div class="text-center">
-				<h2>Lates News</h2>
-			</div>
-			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<img src="images/4.jpg" class="img-responsive"/>
-				<h3>Template built with Twitter Bootstrap</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				</p>
-			</div>
-			
-			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-				<img src="images/4.jpg" class="img-responsive"/>
-				<h3>Template built with Twitter Bootstrap</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				</p>
-			</div>
-			
-			<div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">				
-				<img src="images/4.jpg" class="img-responsive"/>
-				<h3>Template built with Twitter Bootstrap</h3>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus interdum erat 
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				libero, pulvinar tincidunt leo consectetur eget. Curabitur lacinia pellentesque
-				</p>
-			</div>
-		</div>
-	</div> -->
-	
-	<!-- <section id="partner">
-        <div class="container">
-            <div class="center wow fadeInDown">
-                <h2>Our Partners</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
-            </div>    
-
-            <div class="partners">
-                <ul>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms" src="images/partners/partner1.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms" src="images/partners/partner2.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms" src="images/partners/partner3.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms" src="images/partners/partner4.png"></a></li>
-                    <li> <a href="#"><img class="img-responsive wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1500ms" src="images/partners/partner5.png"></a></li>
-                </ul>
-            </div>        
-        </div>
-    </section> -->
-	
 	<section id="conatcat-info">
         <div class="container">
             <div class="row">
@@ -219,39 +128,6 @@
             </div>
         </div><!--/.container-->    
     </section><!--/#conatcat-info-->
-	<!-- <footer>
-		<div class="footer">
-			<div class="container">
-				<div class="social-icon">
-					<div class="col-md-4">
-						<ul class="social-network">
-							<li><a href="#" class="fb tool-tip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
-							<li><a href="#" class="twitter tool-tip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
-							<li><a href="#" class="gplus tool-tip" title="Google Plus"><i class="fa fa-google-plus"></i></a></li>
-							<li><a href="#" class="linkedin tool-tip" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
-							<li><a href="#" class="ytube tool-tip" title="You Tube"><i class="fa fa-youtube-play"></i></a></li>
-						</ul>	
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-md-offset-4">
-					<div class="copyright">
-						&copy; Company Theme. All Rights Reserved.
-                        <div class="credits">
-                            <a href="https://bootstrapmade.com/free-business-bootstrap-themes-website-templates/">Business Bootstrap Themes</a> by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-                        </div>
-					</div>
-				</div>						
-			</div>
-			
-			<div class="pull-right">
-				<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
-			</div>		
-		</div>
-	</footer> -->
-
-	
-	
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="js/jquery-2.1.1.min.js"></script>	
     <!-- Include all compiled plugins (below), or include individual files as needed -->
