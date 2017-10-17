@@ -9,7 +9,7 @@
         <div class="container"> 
             <div class="breadcrumb">                            
                 <li><a href="Home">Home</a></li>
-                <li>Portfolio</li>          
+                <li>Products</li>          
             </div>      
         </div>  
     </div>
