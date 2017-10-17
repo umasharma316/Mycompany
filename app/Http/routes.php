@@ -20,8 +20,8 @@ Route::get('Home', function () {
 Route::get('/', function () {
     return view('index');
 });
-Route::get('portfolio', function () {
-    return view('portfolio');
+Route::get('products', function () {
+    return view('products');
 });
 Route::get('about', function () {
     return view('about');
@@ -37,8 +37,8 @@ Route::get('services', function () {
 });
 
 Route::match(array('GET', 'POST'), '/addorder', array(
-			'as'	=>	'addorder',
-			'uses'	=>	'HomeController@GetItemDetails'
+            'as'    =>  'addorder',
+            'uses'  =>  'HomeController@GetItemDetails'
 ));
 //Route::post('form', array('as' => 'form', 'uses'=>'HomeController@GetItemDetails'));
 Route::get('insert','HomeController@insertform');
