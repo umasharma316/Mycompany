@@ -76,7 +76,7 @@ class HomeController extends Controller {
       Log::info($data->City);Log::info($data->Comments);
       $data->save();
       $email=Input::get('EmailId');
-      Log::info($email);
+      //Log::info($email);
       echo "'$data->FirstName' inserted successfully.<br/>";
       echo '<a href = "/insertquot">Click Here</a> to go back.';
       

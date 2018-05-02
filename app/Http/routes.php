@@ -51,3 +51,8 @@ Route::post('createquot','HomeController@Quotinsert');
 Route::get('AddQuotation', function () {
     return view('AddQuotation');
 });
+
+Route::match(array('GET', 'POST'), '/savemessage', array(
+            'as'    =>  'savemessage',
+            'uses'  =>  'HomeController@SaveMessage'
+));
