@@ -26,8 +26,8 @@
 			               <td><input type='text' name='FirstName' required/></td>
 			            </tr>
 			            <tr style="color: black">
-			               <td>Last Name: <span style="color: red">*</span></label></td>
-			               <td><input type='text' name='LastName' required/></td>
+			               <td>Quaotation For Product Name: <span style="color: red">*</span></label></td>
+			               <td><input type='text' name='QuaotationForItemName' required/></td>
 			            </tr>
 			            <tr style="color: black">
 			               <td>Company Name: <span style="color: red">*</span></label></td>
@@ -35,7 +35,7 @@
 			            </tr>
 			            <tr style="color: black">
 			               <td>Mobile no.: <span style="color: red">*</span></label></td>
-			               <td><input type='text' name='Mobile' required/></td>
+			               <td><input type='text' name='Mobile' pattern="^[7-9][0-9]{9}$" required/></td>
 			            </tr>
 			            <tr style="color: black">
 			               <td>Email Id: <span style="color: red">*</span></label></td>
@@ -49,9 +49,11 @@
 			               <td>Comments/Requests:</td>
 			               <td><input type='text' name='Comments' width="250px" height="200px" /></td>
 			            </tr>
-			            <br>
+
+			            
 			            <tr style="color: black" align="center"> 
-			               <td colspan = '2'>
+			            <td></td>
+			               <td class="col-md-">
 			                  <input type = 'submit' value = "Submit"/>
 			               </td>
 			            </tr>

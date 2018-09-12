@@ -60,56 +60,58 @@ class HomeController extends Controller {
       return view('AddQuotation');
    }
 	
-   public function Quotinsert(){
-   	  $data=new AskQuotation();
-	  $data->FirstName= Input::get('FirstName');
-	  $data->LastName= Input::get('LastName');
-	  $data->CompanyName= Input::get('CompanyName');
-	  $data->Mobile= Input::get('Mobile');
-	  $data->EmailId= Input::get('EmailId');
-	  $data->City= Input::get('City');
-	  $data->Comments= Input::get('Comments');
-      Log::info($data->FirstName);
-      Log::info($data->LastName);
-      Log::info($data->CompanyName);
-      Log::info($data->Mobile);Log::info($data->EmailId);
-      Log::info($data->City);Log::info($data->Comments);
+   public function Quotinsert(Request $request)
+   {
+     	$data=new AskQuotation();
+  	  $data->FirstName= request()->get('FirstName');
+  	  $data->QuaotationForItemName= request()->get('QuaotationForItemName');
+  	  $data->CompanyName= request()->get('CompanyName');
+  	  $data->Mobile= request()->get('Mobile');
+  	  $data->EmailId= request()->get('EmailId');
+  	  $data->City= request()->get('City');
+  	  $data->Comments= request()->get('Comments');
+
       $data->save();
-      $email=Input::get('EmailId');
-      //Log::info($email);
+      $email=request()->get('EmailId');
       echo "'$data->FirstName' inserted successfully.<br/>";
       echo '<a href = "/insertquot">Click Here</a> to go back.';
       
    }
 
-      public function SaveMessage()
+      public function SaveMessage(Request $request)      
       {
-      $msg=new DropYourMessage();
-     $msg->Name= Input::get('name');
-     $msg->EmailId= Input::get('email');
-     $msg->Subject= Input::get('subject');
-     $msg->Message= Input::get('message');
-      Log::info($msg->Name);
-      Log::info($msg->EmailId);
-      Log::info($msg->Subject);
-      Log::info($msg->Message);
-      
-      //echo "Your message added successfully.<br/>";   
+        Log::info('SAve');
+        // try($request:has())
+        // {
+         $msg=new DropYourMessage();
+         $msg->Name= request()->get('name');
+         $msg->EmailId= request()->get('email');
+         $msg->Subject= request()->get('subject');
+         $msg->Message= request()->get('message');
+         Log::info($msg->Name);
+         Log::info($msg->EmailId);
+         Log::info($msg->Subject);
+         Log::info($msg->Message);
 
-      if(Input::get('name')=='' && Input::get('email')==''&& Input::get('message')=='')
-      {           
-        return redirect()->route('contact')->with('message', 'Nothing to submit, Please enter the details!!!');  
-      }
-      else if(Input::get('message')!='' && Input::get('name')=='' && Input::get('email')=='')
-      {
-        return redirect()->route('contact')->with('message', 'Please provide either name or email id!!!');  
-      }
-      else
-      {
-        $msg->save();
-        return view('contact')->with('message', 'Your message has been sent. Thank you!');
-        //return redirect()->route('contact')->with('message', 'Your message has been sent. Thank you!');   
-      }          
+        if(request()->get('name')=='' && request()->get('email')==''&& request()->get('message')=='')
+        {           
+          return redirect()->back()->with('message', 'Nothing to submit, Please enter the details!!!');  
+        }
+        else if(request()->get('message')!='' && request()->get('name')=='' && request()->get('email')=='')
+        {
+          return redirect()->back()->with('message', 'Please provide either name or email id!!!');  
+        }
+        else
+        {
+          $msg->save();
+          Log::info('Save done');
+          return redirect()->back()->with('message', 'Your message has been sent. Thank you!');
+        } 
+      // }
+      // catch(Exception e)
+      // {
+
+      // }         
    }
    
 }

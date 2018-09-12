@@ -30,13 +30,7 @@
                 <h2>Drop Your Message</h2>
                 <p></p>
             </div> 
-            <div class="row contact-wrap"> 
-            @if(session()->has('message'))    
-                <div class="status alert alert-success">
-                {{ session()->get('message') }}
-                <!-- <div id="sendmessage">Your message has been sent. Thank you!</div> -->                    
-                </div>
-            @endif    
+            <div class="row contact-wrap">  
                 <div class="col-md-6 col-md-offset-3">
                     
                     <div id="errormessage"></div>
@@ -55,7 +49,7 @@
                                     <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
                             </div>
                         <div class="text-center">
-                        <button type="submit" value="Submit" class="btn btn-primary btn-lg">Submit Message
+                        <button type="submit" value="Submit" class="btn btn-primary btn-lg" onclick='Javascript:checkEmail();'>Submit Message
                         </button>
                         </div>
                     </form>                       
@@ -74,5 +68,29 @@
     <script src="https://maps.google.com/maps/api/js?sensor=true"></script>
 	<script src="js/functions.js"></script>
     <script src="contactform/contactform.js"></script>    
+    <script type="text/javascript">
+    function checkEmail() 
+    {
+        var email = document.getElementById('email');
+        var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+        if (!filter.test(email.value)) {
+        alert('Please provide a valid email address');
+        email.focus;
+        return false;
+     }
+    }
+</script>
+<!-- <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('google-map'), {
+          center: {lat: 19.258070, lng: 73.043603},
+          zoom: 8
+        });
+      }
+</script>  -->   
+
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCBiw_f5KMnRsk42XnBqxxw1MqVR9gIpAU"></script>;
+
 </body>
 </html>
