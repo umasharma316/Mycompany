@@ -154,16 +154,6 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="portfolio-item bootstrap wordpress col-xs-12 col-sm-4 col-md-3">
-                        <div class="recent-work-wrap">
-                            <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
-                            <div class="overlay">
-                                <div class="recent-work-inner">
-                                    <h3><a href="#">Business theme</a></h3>
-                                </div> 
-                            </div>
-                        </div>        
-                    </div> -->
 
                     <div class="portfolio-item html col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
