@@ -19,13 +19,11 @@
 			<h3>Our company information</h3>
 			<hr>
 			<div class="col-md-7 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-				<img src="images/extrusion.jpeg" class="img-responsive">
-				<!-- <img src="images/sidecut.jpeg" class="img-responsive"> -->
+				<img src="images/extrusion.jpeg">
+				<img src="images/sidecut.jpeg">
 				<h4>Experience you can count on...</h4>
 				<p>For more than 20 years and counting, our mission has always been to be recognized as the commercial and institutional vendor preferred source for all kinds of materials required in textile packing. By providing the products, we’ve earned a reputation as being the experts in the field of supplying textile packaging materials and backed by our personal service and a guarantee of quality. </p>
-
 				<p>Gurudev Traders has been instrumental in providing the quality products consisting of Suiting and Shirting Grey Boards(with pasting and without pasting), BOPP BAGS, BOPP Films and BOPP Gilletene, HDPE (Bardaan) Rolls, Plastic Packing Bags in both PP BAGS and LD BAGS, Adhesive Tapes (in any size and colour and both printed and plain Tapes), Clips, Gold Paste, Bubble Wrap and every other minute products required in Textile and Garment Packaging. <br>
-
 				An efficient and effective Quality Management System  and Timely Delivery of products within stipulated time ensures that the products are trustworthy, so you can be assured of enhanced durability, strength and longevity.</p>
 			</div>
 			<div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -37,7 +35,7 @@
 						<h3>Grey Boards Supply</h3>
 						<div class="progress">
 						  <div class="progress-bar  color1" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
-							<span class="bar-width">75%</span>
+							<span class="bar-width">60%</span>
 						  </div>
 
 						</div>
@@ -60,19 +58,39 @@
 						  </div>
 						</div>
 					</div>
+					<div class="progress-wrap">
+						<h4>Paper & Paper Tubes</h4>
+						<div class="progress">
+						  <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+							<span class="bar-width">10%</span>
+						  </div>
+						</div>
+					</div>
 
 					<div class="progress-wrap">
 						<h4>Printed and Plain Poly Bags</h4>
 						<div class="progress">
-						  <div class="progress-bar color4" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
-							<span class="bar-width">5%</span>
+						  <div class="progress-bar color1" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+							<span class="bar-width">10%</span>
 						  </div>
 						</div>
 					</div>
 				</div>				
 			</div>
+			<div class="col-md-7 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+			<h4>Fully Automatic Bag Sealing Process</h4>							
+				<img src="images/fully-automatic-bag-sealing-machine.jpg" class="img-responsive">
+			</div>
+			<div class="col-md-5 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms"> 			
+			<p><br><br><br>Automatic pouch filling and sealing machines are becoming increasingly popular today for their simplicity, ease-of-use, and the superior aesthetics of their finished product.
+				In order to provide our customer with best quality and finished bags as per requirement, we are bind to work on an automated process that delivers the desired results for the goods. The critical automation  
+				solutions available for building high performance based bag making machines enables us to timely deliver our service and supply with an assured quality control with the help of experienced and trained operator.
+				</p>
+				<p>As a bag manufacturer, we are challenged to differentiate yourself amidst global competition and rapidly evolving technology. Bag manufacturing demands machines that combine high production output,reliability, product quality with low manpower and maintenance costs. The machines also need to be flexible enough to adapt to variations in bag length, bag material and sophisticated bag designs.Hence, it is the necessisity of time to be identified as a good supplier in today's market with the customer satisfaction as prime goal.</p>
+			</div>
 		</div>
 	</div>
+	
 	
 	<div class="our-team">
 		<div class="container">
