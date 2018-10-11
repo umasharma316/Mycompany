@@ -93,7 +93,7 @@
 				<h2>What We Offer</h2>
 				<!-- <img src="images/6.jpg" class="img-responsive"/> -->
 				<div class="grid">
-				<div class="item1"></div>
+				<!-- <div class="item1"></div>
 				<div class="item2"></div>
 				<div class="item3"></div>
 				<div class="item4"></div>
@@ -102,7 +102,7 @@
 				<div class="item7"></div>
 				<div class="item8"></div>
 				<div class="item9"></div>
-				<div class="item10"></div>
+				<div class="item10"></div> -->
 				</div>
 				<p>
 				<!-- Through our commitment to unmatched service and integrity, we become indispensable to our partners. We ensure delivering committed results by making sure we work to deliver the optimum business performance to create greater business valuation.--> 
@@ -145,17 +145,16 @@
 	<section>
         <div class="container">
             <div class="row">
-                <div class="col-sm-8">
+                <div class="col-md-12">
                     <div class="media conatcat-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-                        <div class="pull-left">
-                            <i class="fa fa-phone"></i>
-                        </div>
+                        <div class="pull-left col-md-offset-3"><i class="fa fa-phone"></i></div>
                         <div class="media-body">
                             <h2>Have a question or need a custom quote?</h2>
-					            <ul class="portfolio-filter text-center">
+					            <ul class="portfolio-filter">
 					                <a class="btn btn-default active" href='AddQuotation'>Ask Quotation</a>
+					                <p>Please feel free to send an enquiry or ask for quotation for the product.<br> Email us at <u>support@gurudevtraders.in</u> or call us at 9987456321.</p>
 					            </ul>
-                            <p>Please feel free to send an enquiry or ask for quotation for the product.<br/> Email us at <u>support@gurudevtraders.in</u> or call us at 9987456321.</p>
+                            
                         </div>
                     </div>
                 </div>
